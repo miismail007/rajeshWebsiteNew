@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+nn63x-+!6n+)omruujq02kb0bb*8fxaeh+y4ey^4-pnifbljx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['208.109.229.97','rajeshshanmugham.com','www.rajeshshanmugham.com']
+ALLOWED_HOSTS = ['208.109.229.97','rajeshshanmugham.com','www.rajeshshanmugham.com','localhost']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'index',
+    'letsencrypt'
 ]
 
 MIDDLEWARE = [
